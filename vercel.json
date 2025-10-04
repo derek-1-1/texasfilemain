@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/scrape.ts": {
+      "maxDuration": 300,
+      "includeFiles": "lib/**"
+    }
+  }
+}

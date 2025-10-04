@@ -1,0 +1,26 @@
+{
+  "name": "landmark-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.540.0",
+    "@browserbasehq/stagehand": "^2.4.3",
+    "@vercel/node": "^3.2.20",
+    "zod": "^3.25.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.6.0",
+    "vercel": "^32.0.0"
+  }
+}
